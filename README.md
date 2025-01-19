@@ -30,7 +30,7 @@ The Employee Records Management System is an internal tool designed to centraliz
 ### Steps
 1. Clone the repository:
    ```bash
-   git clone [<repository_url>](https://github.com/moncefarajdal/employees-manager.git)
+   git clone https://github.com/moncefarajdal/employees-manager.git
    cd employee-system
 2. Configure Database Connection. Edit the `application.properties` file
 3. Run the following commands:
@@ -40,6 +40,7 @@ The Employee Records Management System is an internal tool designed to centraliz
 4. The API is documented using Swagger. Once the application is running, access the Swagger UI at:
    http://localhost:8080/swagger-ui.html
 5. Credentials for testing the apis:
+   ```bash
    ADMIN         : username : admin - password : admin123
    HR            : username : hr - password : hr123
    IT Manager    : username : it_manager - password : manager123
